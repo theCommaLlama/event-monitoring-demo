@@ -12,7 +12,7 @@ sf org assign permset -n Event_Monitoring_Access
 
 #sfdx shane:user:password:set -p salesforce1 -g User -l User
 
-sf org create user -a other-user
+#sf org create user -a other-user
 
 #sfdx force:org:open
-sf org open
+#sf org open
